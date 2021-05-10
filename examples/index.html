@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+</head>
+
+<body>
+    <h1>Kopiert Example</h1>
+    <p id="text">This text will be copied to your clipboard.</p>
+    <button id="copy">Copy text</button>
+</body>
+
+<script src="../dist/kopiert.min.js" ></script>
+<script>
+    document.getElementById('copy').addEventListener('click', function() {
+        const text = document.getElementById('text').textContent
+        kopiert.toClipboard(text)
+    })
+</script>
+</html>

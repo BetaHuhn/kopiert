@@ -1,19 +1,64 @@
 <div align="center">
   
-# JS Library Starter
+# Kopiert
 
 [![Node CI](https://github.com/BetaHuhn/kopiert/workflows/Node%20CI/badge.svg)](https://github.com/BetaHuhn/kopiert/actions?query=workflow%3A%22Node+CI%22) [![Release CI](https://github.com/BetaHuhn/kopiert/workflows/Release%20CI/badge.svg)](https://github.com/BetaHuhn/kopiert/actions?query=workflow%3A%22Release+CI%22) [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BetaHuhn/kopiert/blob/master/LICENSE) ![David](https://img.shields.io/david/betahuhn/kopiert)
 
-Starter repo for Browser JavaScript library
+Kopiert (copies) text to the clipboard in the browser
 
 </div>
 
-## 🚀 Features
+## 👋 Introduction
 
-- Semantic Release to GitHub and NPM (via GitHub Actions)
-- Linting with [Eslint](https://eslint.org/)
-- Automatic Dependabot PR merging (via GitHub Actions)
-- Produces minified JS lib
+It's quite simple, include [kopiert](https://github.com/BetaHuhn/kopiert) in your site and start copying text to the clipboard.
+
+## 🚀 Get started
+
+### Script tag
+
+Add this to your HTML page:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/kopiert/dist/kopiert.min.js"></script>
+<script>
+    kopiert.toClipboard('This text will be copied to your clipboard') // For example on a button press
+</script>
+```
+
+### NPM
+
+Install [kopiert](https://github.com/BetaHuhn/kopiert) using NPM:
+
+```sh
+npm install kopiert
+```
+
+Then add the following JavaScript code:
+
+```javascript
+import kopiert from 'kopiert'
+
+kopiert.toClipboard('This text will be copied to your clipboard')
+```
+
+Both methods will copy the specified text to the users clipboard.
+
+## 📖 Examples
+
+### On button click
+
+```html
+<p id="text">This text will be copied to your clipboard.</p>
+<button id="btn">Copy text</button>
+
+<script src="https://cdn.jsdelivr.net/npm/kopiert/dist/kopiert.min.js" ></script>
+<script>
+    document.getElementById('btn').addEventListener('click', function() {
+        const text = document.getElementById('text').textContent
+        kopiert.toClipboard(text)
+    })
+</script>
+```
 
 ## 💻 Development
 

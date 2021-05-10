@@ -1,7 +1,7 @@
 {
   "name": "kopiert",
   "version": "0.1.0",
-  "description": "",
+  "description": "Kopiert (copies) text to the clipboard in the browser",
   "main": "dist/kopiert.min.js",
   "scripts": {
     "lint": "eslint ./src/",

@@ -1,6 +1,6 @@
 <div align="center">
   
-# Kopiert
+# 📋 Kopiert
 
 [![Node CI](https://github.com/BetaHuhn/kopiert/workflows/Node%20CI/badge.svg)](https://github.com/BetaHuhn/kopiert/actions?query=workflow%3A%22Node+CI%22) [![Release CI](https://github.com/BetaHuhn/kopiert/workflows/Release%20CI/badge.svg)](https://github.com/BetaHuhn/kopiert/actions?query=workflow%3A%22Release+CI%22) [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BetaHuhn/kopiert/blob/master/LICENSE) ![David](https://img.shields.io/david/betahuhn/kopiert)
 

@@ -1,0 +1,34 @@
+{
+  "name": "js-lib-starter",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/js-lib-starter.min.js",
+  "scripts": {
+    "lint": "eslint ./src/",
+    "dev": "watch 'npm run build' ./src/ ./examples/ --interval=1",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BetaHuhn/js-lib-starter.git"
+  },
+  "author": "Maximilian Schiller <schiller@mxis.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BetaHuhn/js-lib-starter/issues"
+  },
+  "homepage": "https://github.com/BetaHuhn/js-lib-starter#readme",
+  "keywords": [],
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@betahuhn/config": "^1.0.2",
+    "eslint": "^7.16.0",
+    "rosid-handler-js": "^13.0.2",
+    "watch": "^1.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -15,12 +15,12 @@ jobs:
           secret_key: ${{ secrets.SECRET_KEY }}
           space_name: ${{ secrets.SPACE_NAME }}
           space_region: ${{ secrets.SPACE_REGION }}
-          source: "dist/drkmd-js.min.js"
-          out_dir: "dist/drkmd-js"
+          source: "dist/kopiert.min.js"
+          out_dir: "dist/kopiert"
           versioning: true
   purge:
     name: Purge JSDelivr
     runs-on: ubuntu-latest
     steps:
       - name: Send Purge request to JSDelivr
-        run: curl https://purge.jsdelivr.net/npm/drkmd-js/dist/drkmd-js.min.js
+        run: curl https://purge.jsdelivr.net/npm/kopiert/dist/kopiert.min.js

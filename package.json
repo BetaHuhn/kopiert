@@ -1,6 +1,6 @@
 {
   "name": "kopiert",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Kopiert (copies) text to the clipboard in the browser",
   "main": "dist/kopiert.min.js",
   "scripts": {

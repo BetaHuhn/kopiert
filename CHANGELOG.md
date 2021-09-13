@@ -1,3 +1,11 @@
+## [v1.0.7] - 2021-09-13
+
+[Release notes](https://github.com/BetaHuhn/kopiert/releases/tag/v1.0.7) · [Compare](https://github.com/BetaHuhn/kopiert/compare/v1.0.6...v1.0.7) · [Tag](https://github.com/BetaHuhn/kopiert/tree/v1.0.7) · Archive ([zip](https://github.com/BetaHuhn/kopiert/archive/v1.0.7.zip) · [tar.gz](https://github.com/BetaHuhn/kopiert/archive/v1.0.7.tar.gz))
+
+### Dependency updates
+
+- [`a1ded51`](https://github.com/BetaHuhn/kopiert/commit/a1ded51)  Bump @betahuhn/config from 1.0.2 to 1.2.0
+
 ## [v1.0.6] - 2021-08-09
 
 [Release notes](https://github.com/BetaHuhn/kopiert/releases/tag/v1.0.6) · [Compare](https://github.com/BetaHuhn/kopiert/compare/v1.0.5...v1.0.6) · [Tag](https://github.com/BetaHuhn/kopiert/tree/v1.0.6) · Archive ([zip](https://github.com/BetaHuhn/kopiert/archive/v1.0.6.zip) · [tar.gz](https://github.com/BetaHuhn/kopiert/archive/v1.0.6.tar.gz))
